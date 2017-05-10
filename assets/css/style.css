@@ -156,9 +156,10 @@ footer {
 
 
 #about {
-    width: 500px;
+    width: 60%;
     height: 200px;
    	margin-left: 350px;
+   	display: inline-block;
 }
 
 #pic {
@@ -257,20 +258,48 @@ img.portfoliopic {
 
 @media screen and (max-width: 768px) {
 	.me {
-		display: block;
+		display: inline-block;
+		width: 90%;
+		text-align: center;
+		top: 50%;
+		position: relative;
 	}
 
 	.social {
 		display: block;	
-		position: absolute;
+		position: relative;
+		clear: both;
+		bottom: 5px;
+		width: 90%;
+		text-align: center;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding: 5px;
 	}
 
 	.background {
-		display: block;
+		display: inline-block;
+	}
+
+	#about {
+		width: 40%;
+		padding-top: 0px;
 	}
 	
 	ul {
-		padding-top: 20px;
+		display: block;
+		float: none;
+		text-align: center;
+		position: relative;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.border1 {
+		border: 2px solid #dddddd;
+		margin: auto;
 	}
 }
 
