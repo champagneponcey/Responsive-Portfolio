@@ -252,8 +252,45 @@ img.portfoliopic {
 @media screen and (max-width: 980px) {
 	.social {
 		float: right;
-		margin-right: 100px;
+		margin-left: 2%;
+		position: absolute;
+		top: 30%;
 	}
+
+	.me {
+		width: 50%;
+		margin-left: 1%;
+	}
+
+	.background {
+		display: inline-block;
+		position: relative;
+	}
+
+	ul {
+		margin-right: 1%;
+	}
+
+	h1 {
+		margin-left: 1%;
+	}
+
+	#line {
+		position: relative;
+		width: 66.75%;
+	}
+
+	/*.border3 {
+		margin: auto;
+		width: 85%;
+		position: relative;
+	}
+
+	footer {
+		width: 92%;
+		text-align: center;
+
+	}*/
 }
 
 @media screen and (max-width: 768px) {
