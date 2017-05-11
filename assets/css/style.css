@@ -234,18 +234,23 @@ textarea {
 	/*padding: 10px;*/
 	opacity: .8;
 	background-color: #4aaaa5; 
-
-}
-
-.child p {
 	color: #cccccc;
 	text-align: center;
 	margin-top: 15px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 20px;
 }
+
+/*.child p {
+	color: #cccccc;
+	text-align: center;
+	margin-top: 15px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}*/
 
 img.portfoliopic {
 	width: 250px;
+
 
 }
 
@@ -260,6 +265,7 @@ img.portfoliopic {
 	.me {
 		width: 50%;
 		margin-left: 1%;
+		height: 475px;
 	}
 
 	.background {
@@ -280,17 +286,39 @@ img.portfoliopic {
 		width: 66.75%;
 	}
 
-	/*.border3 {
-		margin: auto;
-		width: 85%;
-		position: relative;
+	.grandparent {
+		width: 90%;
+		/*margin-left: 5%;	*/
 	}
 
-	footer {
-		width: 92%;
-		text-align: center;
+	.portfolio {
+		margin: 20%;
+		/*background-color: white;*/
+		height: 20px;
+		width: 75px;
 
-	}*/
+	}
+
+	#top_row {
+		display: inline;
+		height: 1px;
+		/*width: 200px;*/
+		margin-right: 2.5%;
+		/*margin-bottom: 10%;*/
+	}
+
+	img.portfoliopic {
+		/*height: 20%;*/
+		width: 100%;
+		margin: 0%;
+		/*background-color: none;*/
+	}
+
+	.child {
+		height: 20%;
+		width: 100%;
+		margin-top: 0%;
+	}
 }
 
 @media screen and (max-width: 768px) {
