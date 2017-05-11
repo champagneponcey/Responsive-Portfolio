@@ -419,12 +419,45 @@ img.portfoliopic {
 
 @media screen and (max-width: 640px) {
 
+	header {
+		display: block;
+		text-align: center;
+		padding-top: 2.5%;
+		margin-top: 1%;
+	}
+
+	h1 {
+		width: 100%;
+		/*margin-top: 10%;*/
+		margin-bottom: 60px;
+		/*padding-top: 50%;*/
+		font-size: 40px;
+
+	}
+
 	ul {
 		padding-top: 0px;
-		margin-right: 20px;
+		margin-left: 60%;
+		text-align: center;
+		width: 100%;
+	}
+
+	li {
+		margin-left: 10px;
+		width: 30%;
+		margin-right: 2.5px;
 	}
 	
 	.me {
 		display: block;	
+	}
+
+	nav {
+		text-align: center;
+		margin-right: 0%;
+	}
+
+	.border1 {
+		margin-top: 24%;
 	}
 }
